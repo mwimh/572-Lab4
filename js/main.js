@@ -1,1 +1,1 @@
-// Add all scripts to the JS folder
+console.log(window.innerWidth)
