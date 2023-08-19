@@ -85,8 +85,6 @@ h4 {
 }
 
 .row {
-    padding-top: 50px;
-    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,10 +120,6 @@ h4 {
     margin-bottom: 20px;
 }
 
-.col-md-4 {
-    padding: 10px;
-}
-
 .desc {
     font-family: Outfit;
     font-size: 18px;
@@ -135,7 +129,6 @@ h4 {
     background-color: #FFFFFF75;
     padding: 25px;
     margin-top: 40px;
-
 }
 
 h3 {
@@ -185,15 +178,6 @@ h3 {
     color: white;
 }
 
-
-.jumbotronTwo {
-    margin-bottom: -60px;
-    padding: 30px;
-    background-color: #3f4d59b7;
-    font-family: Outfit;
-    color: white;
-}
-
 .resLoc {
     font-size: large;
     color: lightblue
@@ -202,4 +186,8 @@ h3 {
 .dateRange {
     font-size: small;
     color: lightgray;
+}
+
+#frontImages {
+    padding-top: 50px;
 }
