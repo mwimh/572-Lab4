@@ -2,7 +2,7 @@ h1 {
 
     font-family: Montserrat;
     font-size: 50px;
-    font-weight: Black;
+    font-weight: bolder;
     text-shadow: 3px 3px 2px #3F4D59;
     color: #D5E5F2;
     padding-left: 135px;
@@ -40,7 +40,7 @@ h1 {
 #content {
     background-image: url("img/backTopo.png");
     background-color: #f2d0a736;
-    width: 100%;
+    width: min-content;
     height: 100%;
 }
 
@@ -111,15 +111,18 @@ h4 {
     border-width: 0px;
     border-color: #3F4D59;
     border-style: ridge;
+    padding-bottom: 0px;
 }
 
 .dropdown {
     position: fixed;
     top: 55px;
-    left: 85%;
+    right: 200px;
     z-index: 6;
     font-family: Montserrat;
-    font-weight: 600;
+    border-color: rgb(172, 225, 247);
+    border-width: 3px;
+    border-style: ridge;
 }
 
 #subtitle {
@@ -137,4 +140,31 @@ h4 {
 
 .col-md-4 {
     padding: 10px;
+}
+
+.desc {
+    font-family: Montserrat;
+    font-size: 18px;
+    border-width: 1px;
+    border-style: ridge;
+    border-color: lightgrey;
+    background-color: #FFFFFF75;
+    padding: 25px;
+
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 36px;
+    border-width: 1px;
+    border-style: ridge;
+    border-color: lightgrey;
+    background-color: #FFFFFF75;
+    padding: 25px;
+    font-weight: bolder;
+    text-shadow: 3px 3px 2px #d1d1d1;
+}
+
+.card {
+    line-height: 70%;
 }
