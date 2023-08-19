@@ -25,7 +25,6 @@ h4 {
 }
 
 #top {
-    background-image: url("/img/topo1.png");
     background-color: #3F4D59;
     padding: 10px;
     position: absolute;
@@ -45,8 +44,6 @@ h4 {
 }
 
 #content {
-    background-image: url("img/backTopo.png");
-    background-color: #f2d0a736;
     width: min-content;
     height: 100%;
 }
@@ -187,4 +184,9 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.portThumb {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
