@@ -23,8 +23,7 @@ h1 {
     background-image: url("/img/topo1.png");
     background-color: #3F4D59;
     padding: 10px;
-    position: fixed
-    ;
+    position: absolute;
     width: 100%;
     z-index: 5;
 }
@@ -58,7 +57,7 @@ h1 {
 }
 
 #wiImage {
-    position: fixed;
+    position: absolute;
     top: 18px;
     left: 40px;
     z-index: 5;
@@ -100,7 +99,7 @@ h4 {
 .dropdown {
     position: fixed;
     top: 55px;
-    right: 200px;
+    left: 87%;
     z-index: 6;
     font-family: Outfit;
     border-color: rgb(172, 225, 247);
