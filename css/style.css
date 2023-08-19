@@ -84,11 +84,6 @@ h4 {
     position: relative;
 }
 
-.row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .card-img-top {
     padding: 20px;
@@ -161,7 +156,6 @@ h3 {
     padding: 60px;
     font-family: Outfit;
     line-height: 70%;
-
 }
 
 .carousel-inner {
@@ -190,4 +184,7 @@ h3 {
 
 #frontImages {
     padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
