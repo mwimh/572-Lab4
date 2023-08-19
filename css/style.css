@@ -14,6 +14,11 @@ h1 {
     margin: 5px;
 }
 
+
+h4 {
+    text-decoration: underline;
+}
+
 .mainContent {
     height: fit-content;
     overflow-y: scroll;
@@ -26,6 +31,8 @@ h1 {
     position: absolute;
     width: 100%;
     z-index: 5;
+    max-height: 160px;
+    overflow-x: hidden;
 }
 
 #bottom {
@@ -71,9 +78,6 @@ h1 {
     padding-bottom: 100px;
 }
 
-h4 {
-    text-decoration: underline;
-}
 
 .backgroundLayer {
     background: url('img/backTopo.png');
@@ -110,8 +114,8 @@ h4 {
 }
 
 .map {
-    max-width:100%;
-    max-height:auto;
+    max-width: 100%;
+    max-height: auto;
     border-width: 3px;
     border-color: #3F4D59;
     border-style: ridge;
@@ -130,6 +134,7 @@ h4 {
     border-color: lightgrey;
     background-color: #FFFFFF75;
     padding: 25px;
+    margin-top: 40px;
 
 }
 
@@ -163,7 +168,7 @@ h3 {
     padding: 60px;
     font-family: Outfit;
     line-height: 70%;
-    
+
 }
 
 .carousel-inner {
@@ -173,9 +178,29 @@ h3 {
 }
 
 .jumbotron {
-margin-bottom: -60px;
-margin-top: -120px;
-background-color: #3f4d59b7;
-font-family: Outfit;
-color: white;
+    margin-bottom: -60px;
+    margin-top: -120px;
+    background-color: #3f4d59b7;
+    font-family: Outfit;
+    color: white;
+}
+
+
+.jumbotron2 {
+    margin-bottom: -60px;
+    margin-top: 00px;
+    padding: 30px;
+    background-color: #3f4d59b7;
+    font-family: Outfit;
+    color: white;
+}
+
+.resLoc {
+    font-size: large;
+    color: lightblue
+}
+
+.dateRange {
+    font-size: small;
+    color: lightgray;
 }
