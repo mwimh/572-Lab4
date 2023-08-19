@@ -1,0 +1,268 @@
+body {
+    background-color: #e7e7e7;
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+
+}
+
+.pageTitle {
+    font-size: 30px;
+    font-family: Georgia, serif;
+    z-index: 11;
+    position: fixed;
+    top: 15px;
+    left: 65px;
+    text-align: center;
+}
+
+.titleBack {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.titleFrame {
+    stroke: #535353;
+    stroke-width: 5px;
+    z-index: 10;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    fill: none;
+}
+
+.titleSub {
+    font-size: 18pt;
+    font-style: italic;
+    text-decoration: underline;
+    vertical-align: text-top;
+}
+
+.map {
+    border: thick solid #525252;
+    margin: 100px 0 0 20px;
+}
+
+.mapTitle {
+    display: table;
+    font-family: Georgia, serif;
+    font-size: 1.6em;
+    text-decoration: underline;
+    z-index: 11;
+}
+
+.mapTitleBack {
+    fill: rgba(255, 255, 255, 0.8);
+}
+
+.backgnd {
+    fill: rgb(241, 225, 203);
+    stroke: black;
+    stroke-width: 0.5px;
+}
+
+.bgstates {
+    fill: rgb(255, 255, 255);
+}
+
+.gratLines {
+    fill: none;
+    stroke: #e9e9e9;
+    stroke-opacity: 0.5;
+    stroke-width: 1px;
+}
+
+.gratBackground {
+    fill: rgb(177, 193, 223);
+
+}
+
+.centers {
+    stroke: rgb(0, 0, 0);
+    stroke-width: 0.75px;
+    stroke-linecap: round;
+    fill-opacity: 0.85;
+}
+
+.states {
+    fill: none;
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1.0px;
+    stroke-opacity: 0.7;
+}
+
+.points {
+    fill: rgba(255, 130, 245, 0.534);
+    stroke: rgb(191, 45, 236);
+    stroke-width: 3px;
+    z-index: -1;
+}
+
+.chart {
+    background-color: rgb(240, 240, 240);
+    border: thick solid #525252;
+    float: right;
+    margin: 100px 20px 0 0;
+}
+
+.chartBackground {
+    fill: rgba(75, 75, 75, 0.3);
+}
+
+.chartTitle {
+    font-family: Georgia, serif;
+    font-size: 1.6em;
+    text-decoration: underline;
+}
+
+
+.chartTitleBack {
+    fill: rgb(240, 240, 240);
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #6e6e6e;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+
+.bars {
+    fill-opacity: 0.8;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #6e6e6e;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    fill: #535353;
+}
+
+.dropdown {
+    position: absolute;
+    top: 120px;
+    left: 405px;
+    z-index: 10;
+    font-family: Georgia, serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+option {
+    font-weight: normal;
+}
+
+.infolabel {
+    position: absolute;
+    height: fit-content;
+    min-width: 150px;
+    color: #001a38;
+    background-color: #ffffff;
+    border: solid #636363;
+    padding: 5px 10px;
+    top: -75px;
+    border-radius: 10px;
+}
+
+.infolabel h1 {
+    margin: 0 7px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+    color: rgb(0, 61, 194);
+}
+
+.infoBox {
+    line-height: 0px;
+    position: absolute;
+    left: 80px;
+    z-index: 10;
+    height: fit-content;
+    width: fit-content;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    padding: 10px;
+}
+
+.labLegend {
+    position: absolute;
+    top: 200px;
+    right: 60px;
+    z-index: 10;
+    height: fit-content;
+    min-width: 150px;
+    color: #001a38;
+    background-color: #ffffff;
+    border: solid #636363;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.labLegend h1 {
+    margin: 0 7px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+    color: rgb(0, 61, 194);
+}
+
+.moreInfo {
+    font-size: small;
+    color: rgb(171, 22, 201);
+    line-height: 25px;
+}
+
+.metadata {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 0.8em;
+    color: rgb(221, 221, 221);
+    line-height: 0.35;
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+}
+
+.metaBack {
+    background-color: #1b1b1b;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.mapLegend {
+    position: relative;
+    bottom: 40px;
+    left: 25%;
+    max-width: 100px;
+}
+
+.addInfo {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 0.8em;
+    color: rgb(0, 0, 0);
+    line-height: 1.35;
+    position: absolute;
+    max-width: 1320px;
+    word-wrap: break-word;
+}
+
+.addInfoBack {
+    background-color: #ffffff;
+    opacity: 0.7;
+    position: absolute;
+    width: 1350px;
+    height: 125px;
+}
