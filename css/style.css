@@ -23,7 +23,8 @@ h1 {
     background-image: url("/img/Topo1.png");
     background-color: #3F4D59;
     padding: 10px;
-    position: fixed;
+    position: fixed
+    ;
     width: 100%;
     z-index: 5;
 }
