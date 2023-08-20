@@ -92,8 +92,8 @@ h4 {
 
 .dropdown {
     position: fixed;
-    top: 180px;
-    left: 5%;
+    top: 55px;
+    right: 40px;
     z-index: 6;
     font-family: Outfit;
 }
