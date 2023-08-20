@@ -167,6 +167,7 @@ h3 {
     background-color: #3f4d59b7;
     font-family: Outfit;
     color: white;
+
 }
 
 .resLoc {
@@ -189,4 +190,14 @@ h3 {
 .portThumb {
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.nav-item {
+    z-index: 99999999;
+    height: auto;
+}
+
+.navbar {
+    z-index: 9999999;
+    height: auto;
 }
