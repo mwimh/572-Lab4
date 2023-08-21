@@ -126,13 +126,9 @@ h4 {
 h3 {
     font-family: Outfit;
     font-size: 36px;
-    border-width: 1px;
-    border-style: ridge;
-    border-color: lightgrey;
-    background-color: #FFFFFF75;
+    background-color: #ffffffc7;
     padding: 25px;
     font-weight: bolder;
-    text-shadow: 3px 3px 2px #d1d1d1;
 }
 
 .card {
@@ -168,7 +164,6 @@ h3 {
     background-color: #3f4d59b7;
     font-family: Outfit;
     color: white;
-
 }
 
 .resLoc {
