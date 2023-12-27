@@ -19,7 +19,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: none;
     z-index: 10000000;
-    color: #045b8d;
+    color: #000000;
     text-shadow: 0.75px 0.75px #ffffff;
 }
 
@@ -108,6 +108,8 @@ e:hover {
     top: 120px;
     left: 30px;
     z-index: 10;
+    border-color: #000000;
+    border-style:ridge;
 }
 
 #map {
@@ -144,6 +146,7 @@ e:hover {
     height: 170px;
     bottom: 40px;
     left: 35px;
+    border-style:inset;
 }
 
 .info h4 {
@@ -185,7 +188,8 @@ a:visited {
 
 a:hover {
     color: #74a9cf;
-    text-shadow: .75px .75px #3f3f3fa4
+    text-shadow: .75px .75px #3f3f3fa4;
+
 }
 
 .legend {
@@ -203,6 +207,7 @@ a:hover {
     bottom: 40px;
     left: 35px;
     line-height: 1.5;
+    border-style:inset;
 
 }
 .legend i {
@@ -239,10 +244,12 @@ a:hover {
     bottom: 10px;
     right: 60px;
     color: #555;
+    border-style:inset;
 }
 
 #currentHuc {
     font-size: large;
     font-weight: bold;
-    color: #111
+    color: #111;
+
 }
